@@ -1,0 +1,318 @@
+import { _ as __nuxt_component_0 } from './nuxt-link-SH4khH6a.mjs';
+import script from './index-DYwQSFBL.mjs';
+import { defineComponent, ref, withCtx, createTextVNode, unref, createVNode, useSSRContext } from 'vue';
+import { ssrRenderAttrs, ssrRenderComponent, ssrRenderList, ssrRenderClass, ssrInterpolate, ssrRenderStyle } from 'vue/server-renderer';
+import { a as useSeoMeta } from './server.mjs';
+import '../nitro/nitro.mjs';
+import 'node:http';
+import 'node:https';
+import 'node:events';
+import 'node:buffer';
+import 'node:fs';
+import 'node:path';
+import 'node:crypto';
+import '@primevue/core/base/style';
+import '@primevue/core/basecomponent/style';
+import '@primeuix/styles/autocomplete';
+import '@primeuix/utils/object';
+import '@primeuix/styles/cascadeselect';
+import '@primeuix/styles/checkbox';
+import '@primeuix/styles/checkboxgroup';
+import '@primeuix/styles/colorpicker';
+import '@primeuix/styles/datepicker';
+import '@primeuix/styles/floatlabel';
+import '@primeuix/styles/iconfield';
+import '@primeuix/styles/iftalabel';
+import '@primeuix/styles/inputchips';
+import '@primeuix/styles/inputgroup';
+import '@primeuix/styles/inputnumber';
+import '@primeuix/styles/inputotp';
+import '@primeuix/styles/inputtext';
+import '@primeuix/styles/knob';
+import '@primeuix/styles/listbox';
+import '@primeuix/styles/multiselect';
+import '@primeuix/styles/password';
+import '@primeuix/styles/radiobutton';
+import '@primeuix/styles/radiobuttongroup';
+import '@primeuix/styles/rating';
+import '@primeuix/styles/select';
+import '@primeuix/styles/selectbutton';
+import '@primeuix/styles/slider';
+import '@primeuix/styles/textarea';
+import '@primeuix/styles/togglebutton';
+import '@primeuix/styles/toggleswitch';
+import '@primeuix/styles/treeselect';
+import '@primeuix/styles/button';
+import '@primeuix/styles/buttongroup';
+import '@primeuix/styles/speeddial';
+import '@primeuix/styles/splitbutton';
+import '@primeuix/styles/datatable';
+import '@primeuix/styles/dataview';
+import '@primeuix/styles/orderlist';
+import '@primeuix/styles/organizationchart';
+import '@primeuix/styles/paginator';
+import '@primeuix/styles/picklist';
+import '@primeuix/styles/tree';
+import '@primeuix/styles/treetable';
+import '@primeuix/styles/timeline';
+import '@primeuix/styles/virtualscroller';
+import '@primeuix/styles/accordion';
+import '@primeuix/styles/card';
+import '@primeuix/styles/divider';
+import '@primeuix/styles/fieldset';
+import '@primeuix/styles/panel';
+import '@primeuix/styles/scrollpanel';
+import '@primeuix/styles/splitter';
+import '@primeuix/styles/stepper';
+import '@primeuix/styles/tabview';
+import '@primeuix/styles/tabs';
+import '@primeuix/styles/toolbar';
+import '@primeuix/styles/confirmdialog';
+import '@primeuix/styles/confirmpopup';
+import '@primeuix/styles/dialog';
+import '@primeuix/styles/drawer';
+import '@primeuix/styles/popover';
+import '@primeuix/styles/fileupload';
+import '@primeuix/styles/breadcrumb';
+import '@primeuix/styles/contextmenu';
+import '@primeuix/styles/dock';
+import '@primeuix/styles/menu';
+import '@primeuix/styles/menubar';
+import '@primeuix/styles/megamenu';
+import '@primeuix/styles/panelmenu';
+import '@primeuix/styles/steps';
+import '@primeuix/styles/tabmenu';
+import '@primeuix/styles/tieredmenu';
+import '@primeuix/styles/message';
+import '@primeuix/styles/inlinemessage';
+import '@primeuix/styles/toast';
+import '@primeuix/styles/carousel';
+import '@primeuix/styles/galleria';
+import '@primeuix/styles/image';
+import '@primeuix/styles/imagecompare';
+import '@primeuix/styles/avatar';
+import '@primeuix/styles/badge';
+import '@primeuix/styles/blockui';
+import '@primeuix/styles/chip';
+import '@primeuix/styles/inplace';
+import '@primeuix/styles/metergroup';
+import '@primeuix/styles/overlaybadge';
+import '@primeuix/styles/scrolltop';
+import '@primeuix/styles/skeleton';
+import '@primeuix/styles/progressbar';
+import '@primeuix/styles/progressspinner';
+import '@primeuix/styles/tag';
+import '@primeuix/styles/terminal';
+import '@primevue/forms/form/style';
+import '@primevue/forms/formfield/style';
+import '@primeuix/styles/tooltip';
+import '@primeuix/styles/ripple';
+import '@primeuix/styled';
+import '@primeuix/utils';
+import './index-UkdBiBMI.mjs';
+import './index-DxKIPVaB.mjs';
+import './index-DI7ROuCk.mjs';
+import '@primeuix/utils/dom';
+import './index-BRbClZ7G.mjs';
+import './index-BVmCEVFM.mjs';
+import './index-DA3RQQMs.mjs';
+import '@primeuix/utils/uuid';
+import 'pinia';
+import 'vue-router';
+import '@primeuix/utils/eventbus';
+import '@primeuix/styles/base';
+import '../routes/renderer.mjs';
+import 'vue-bundle-renderer/runtime';
+import 'unhead/server';
+import 'devalue';
+import 'unhead/plugins';
+import 'unhead/utils';
+
+const _sfc_main = /* @__PURE__ */ defineComponent({
+  __name: "health-journey",
+  __ssrInlineRender: true,
+  setup(__props) {
+    useSeoMeta({
+      title: "Health Journey - For The People",
+      description: "A personal health tracking platform with community support. Set goals, share experiences, and stay motivated together."
+    });
+    const features = [
+      {
+        icon: "pi-chart-line",
+        title: "Personal Health Tracking",
+        description: "Track your health metrics, habits, and progress over time. Set personal goals and visualize your journey with intuitive charts and milestones."
+      },
+      {
+        icon: "pi-users",
+        title: "Community Support",
+        description: "Connect with others on similar health journeys. Share experiences, celebrate wins, and support each other through challenges."
+      },
+      {
+        icon: "pi-flag",
+        title: "Goal Setting & Milestones",
+        description: "Define meaningful health goals and break them into achievable milestones. Track your progress and celebrate every step forward."
+      },
+      {
+        icon: "pi-comments",
+        title: "Peer Accountability",
+        description: "Find accountability partners who understand your journey. Regular check-ins and encouragement help you stay on track."
+      },
+      {
+        icon: "pi-shield",
+        title: "Privacy First",
+        description: "Your health data is yours. End-to-end encryption ensures your personal information stays private and secure."
+      },
+      {
+        icon: "pi-heart",
+        title: "No Commercial Influence",
+        description: "Health advice comes from the community, not advertisers. No sponsored content, no product placements, no hidden agendas."
+      }
+    ];
+    const benefits = [
+      {
+        stat: "3x",
+        label: "More Likely to Succeed",
+        description: "People with community support are three times more likely to achieve their health goals."
+      },
+      {
+        stat: "100%",
+        label: "Free Forever",
+        description: "No subscriptions, no premium tiers. Full access to all features, always."
+      },
+      {
+        stat: "0",
+        label: "Ads & Data Selling",
+        description: "Your data is never sold. No advertisements. Just tools that help you."
+      }
+    ];
+    const faqs = [
+      {
+        question: "What kind of health journeys does this support?",
+        answer: "Health Journey supports any personal health goal - weight management, fitness improvement, mental wellness, chronic condition management, habit building, and more. The platform is designed to be flexible to your unique needs."
+      },
+      {
+        question: "How is my data protected?",
+        answer: "We use end-to-end encryption for sensitive health data. Your information is stored securely and never shared with third parties. You can export or delete your data at any time."
+      },
+      {
+        question: "Is this medical advice?",
+        answer: "No. Health Journey is a community support and tracking tool, not a medical service. Always consult healthcare professionals for medical advice. Our platform helps you stay motivated and connected, not diagnose or treat conditions."
+      },
+      {
+        question: "How do I find support partners?",
+        answer: "Our buddy matching system connects you with others on similar journeys. You can set preferences for the type of support you want and find accountability partners who understand your challenges."
+      },
+      {
+        question: "Why is this free?",
+        answer: "For The People is a non-profit initiative. We believe everyone deserves access to supportive health tools regardless of their financial situation. We operate through community contributions and grants."
+      }
+    ];
+    const expandedFaq = ref(null);
+    return (_ctx, _push, _parent, _attrs) => {
+      const _component_NuxtLink = __nuxt_component_0;
+      const _component_Button = script;
+      _push(`<div${ssrRenderAttrs(_attrs)}><section class="relative overflow-hidden bg-gradient-to-br from-rose-50 via-white to-primary-50 dark:from-gray-900 dark:via-gray-950 dark:to-gray-900"><div class="section-container py-16 md:py-24"><div class="max-w-4xl mx-auto"><div class="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-8">`);
+      _push(ssrRenderComponent(_component_NuxtLink, {
+        to: "/",
+        class: "hover:text-primary-600"
+      }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(`Home`);
+          } else {
+            return [
+              createTextVNode("Home")
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`<i class="pi pi-angle-right text-xs"></i>`);
+      _push(ssrRenderComponent(_component_NuxtLink, {
+        to: "/initiatives",
+        class: "hover:text-primary-600"
+      }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(`Initiatives`);
+          } else {
+            return [
+              createTextVNode("Initiatives")
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`<i class="pi pi-angle-right text-xs"></i><span class="text-gray-900 dark:text-gray-100">Health Journey</span></div><div class="flex flex-col lg:flex-row items-center gap-12"><div class="lg:w-1/2"><div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 text-sm font-medium mb-4"><span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span> Active Initiative </div><h1 class="font-heading text-4xl md:text-5xl font-bold tracking-tight mb-4"> Health <span class="gradient-text">Journey</span></h1><p class="text-xl text-gray-600 dark:text-gray-300 mb-6"> Your path to better health, supported by a community that understands. </p><p class="text-gray-600 dark:text-gray-400 mb-8"> Health Journey is a personal health tracking platform that combines individual goal-setting with the power of community support. Because improving your health is easier when you&#39;re not doing it alone. </p><div class="flex flex-col sm:flex-row gap-4">`);
+      _push(ssrRenderComponent(_component_Button, {
+        label: "Get Started",
+        icon: "pi pi-arrow-right",
+        iconPos: "right",
+        severity: "primary",
+        size: "large"
+      }, null, _parent));
+      _push(ssrRenderComponent(_component_Button, {
+        label: "View on GitHub",
+        icon: "pi pi-github",
+        severity: "secondary",
+        size: "large",
+        outlined: ""
+      }, null, _parent));
+      _push(`</div></div><div class="lg:w-1/2"><div class="relative bg-gradient-to-br from-primary-500 to-emerald-500 rounded-3xl p-8 text-white"><div class="absolute inset-0 bg-black/10 rounded-3xl"></div><div class="relative"><i class="pi pi-heart text-8xl opacity-20 absolute top-0 right-0"></i><div class="space-y-6"><div class="flex items-center gap-4"><div class="w-12 h-12 rounded-xl bg-white/20 flex items-center justify-center"><i class="pi pi-chart-line text-2xl"></i></div><div><div class="font-semibold">Track Progress</div><div class="text-sm text-white/80">Visualize your journey</div></div></div><div class="flex items-center gap-4"><div class="w-12 h-12 rounded-xl bg-white/20 flex items-center justify-center"><i class="pi pi-users text-2xl"></i></div><div><div class="font-semibold">Find Community</div><div class="text-sm text-white/80">Connect with others</div></div></div><div class="flex items-center gap-4"><div class="w-12 h-12 rounded-xl bg-white/20 flex items-center justify-center"><i class="pi pi-flag text-2xl"></i></div><div><div class="font-semibold">Achieve Goals</div><div class="text-sm text-white/80">Celebrate milestones</div></div></div></div></div></div></div></div></div></div><div class="absolute top-20 left-10 w-72 h-72 bg-rose-300/20 rounded-full blur-3xl"></div><div class="absolute bottom-10 right-10 w-96 h-96 bg-primary-300/20 rounded-full blur-3xl"></div></section><section class="py-16 md:py-24 bg-white dark:bg-gray-950"><div class="section-container"><div class="max-w-3xl mx-auto text-center mb-12"><h2 class="font-heading text-3xl md:text-4xl font-bold mb-4"> Why Health Journeys Fail </h2><p class="text-gray-600 dark:text-gray-400"> Most people struggle to achieve their health goals. Here&#39;s why, and how we&#39;re different. </p></div><div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto"><div class="p-8 rounded-2xl bg-red-50 dark:bg-red-950/20 border border-red-200 dark:border-red-900/50"><h3 class="font-heading text-xl font-semibold mb-4 text-red-900 dark:text-red-200 flex items-center gap-2"><i class="pi pi-times-circle"></i> The Typical Experience </h3><ul class="space-y-3 text-red-800 dark:text-red-300"><li class="flex items-start gap-3"><i class="pi pi-angle-right mt-1 flex-shrink-0"></i><span>Going it alone with no support system</span></li><li class="flex items-start gap-3"><i class="pi pi-angle-right mt-1 flex-shrink-0"></i><span>Apps that push products instead of progress</span></li><li class="flex items-start gap-3"><i class="pi pi-angle-right mt-1 flex-shrink-0"></i><span>Losing motivation when progress slows</span></li><li class="flex items-start gap-3"><i class="pi pi-angle-right mt-1 flex-shrink-0"></i><span>Privacy concerns about health data</span></li><li class="flex items-start gap-3"><i class="pi pi-angle-right mt-1 flex-shrink-0"></i><span>Premium paywalls blocking essential features</span></li></ul></div><div class="p-8 rounded-2xl bg-primary-50 dark:bg-primary-950/20 border border-primary-200 dark:border-primary-900/50"><h3 class="font-heading text-xl font-semibold mb-4 text-primary-900 dark:text-primary-200 flex items-center gap-2"><i class="pi pi-check-circle"></i> The Health Journey Way </h3><ul class="space-y-3 text-primary-800 dark:text-primary-300"><li class="flex items-start gap-3"><i class="pi pi-angle-right mt-1 flex-shrink-0"></i><span>Community of people who understand your journey</span></li><li class="flex items-start gap-3"><i class="pi pi-angle-right mt-1 flex-shrink-0"></i><span>Zero commercial influence on your health path</span></li><li class="flex items-start gap-3"><i class="pi pi-angle-right mt-1 flex-shrink-0"></i><span>Accountability partners to keep you going</span></li><li class="flex items-start gap-3"><i class="pi pi-angle-right mt-1 flex-shrink-0"></i><span>End-to-end encryption for your data</span></li><li class="flex items-start gap-3"><i class="pi pi-angle-right mt-1 flex-shrink-0"></i><span>100% free, forever - all features included</span></li></ul></div></div></div></section><section class="py-16 md:py-24 bg-gray-50 dark:bg-gray-900"><div class="section-container"><div class="max-w-3xl mx-auto text-center mb-12"><h2 class="font-heading text-3xl md:text-4xl font-bold mb-4"> Features Built for Your Success </h2><p class="text-gray-600 dark:text-gray-400"> Every feature exists to help you achieve your health goals. Nothing more, nothing less. </p></div><div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto"><!--[-->`);
+      ssrRenderList(features, (feature) => {
+        _push(`<div class="p-6 bg-white dark:bg-gray-950 rounded-xl border border-gray-200 dark:border-gray-800 hover:border-primary-300 dark:hover:border-primary-700 transition-colors"><div class="w-12 h-12 rounded-xl bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center mb-4"><i class="${ssrRenderClass(`pi ${feature.icon} text-primary-600 dark:text-primary-400 text-xl`)}"></i></div><h3 class="font-heading font-semibold mb-2">${ssrInterpolate(feature.title)}</h3><p class="text-sm text-gray-600 dark:text-gray-400">${ssrInterpolate(feature.description)}</p></div>`);
+      });
+      _push(`<!--]--></div></div></section><section class="py-16 md:py-24 bg-gradient-to-br from-primary-600 to-emerald-600"><div class="section-container"><div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto text-center text-white"><!--[-->`);
+      ssrRenderList(benefits, (benefit) => {
+        _push(`<div><div class="text-5xl font-bold mb-2">${ssrInterpolate(benefit.stat)}</div><div class="font-semibold mb-2">${ssrInterpolate(benefit.label)}</div><p class="text-sm text-primary-100">${ssrInterpolate(benefit.description)}</p></div>`);
+      });
+      _push(`<!--]--></div></div></section><section class="py-16 md:py-24 bg-white dark:bg-gray-950"><div class="section-container"><div class="max-w-3xl mx-auto text-center mb-12"><h2 class="font-heading text-3xl md:text-4xl font-bold mb-4"> How It Works </h2><p class="text-gray-600 dark:text-gray-400"> Getting started on your health journey is simple. </p></div><div class="max-w-4xl mx-auto"><div class="grid md:grid-cols-4 gap-8"><div class="text-center"><div class="w-16 h-16 rounded-full bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-primary-600"> 1 </div><h3 class="font-semibold mb-2">Create Account</h3><p class="text-sm text-gray-600 dark:text-gray-400"> Sign up with just an email. No personal details required. </p></div><div class="text-center"><div class="w-16 h-16 rounded-full bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-primary-600"> 2 </div><h3 class="font-semibold mb-2">Set Your Goals</h3><p class="text-sm text-gray-600 dark:text-gray-400"> Define what health means to you and set personal milestones. </p></div><div class="text-center"><div class="w-16 h-16 rounded-full bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-primary-600"> 3 </div><h3 class="font-semibold mb-2">Find Community</h3><p class="text-sm text-gray-600 dark:text-gray-400"> Connect with others on similar journeys for support. </p></div><div class="text-center"><div class="w-16 h-16 rounded-full bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-primary-600"> 4 </div><h3 class="font-semibold mb-2">Track &amp; Grow</h3><p class="text-sm text-gray-600 dark:text-gray-400"> Log progress, celebrate wins, and keep moving forward. </p></div></div></div></div></section><section class="py-16 md:py-24 bg-gray-50 dark:bg-gray-900"><div class="section-container"><div class="max-w-3xl mx-auto"><div class="text-center mb-12"><h2 class="font-heading text-3xl md:text-4xl font-bold mb-4"> Frequently Asked Questions </h2><p class="text-gray-600 dark:text-gray-400"> Got questions? We&#39;ve got answers. </p></div><div class="space-y-4"><!--[-->`);
+      ssrRenderList(faqs, (faq, index) => {
+        _push(`<div class="bg-white dark:bg-gray-950 rounded-xl border border-gray-200 dark:border-gray-800 overflow-hidden"><button class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 dark:hover:bg-gray-900 transition-colors"><span class="font-medium">${ssrInterpolate(faq.question)}</span><i class="${ssrRenderClass([
+          "pi transition-transform",
+          unref(expandedFaq) === index ? "pi-minus rotate-0" : "pi-plus"
+        ])}"></i></button><div class="px-6 pb-4 text-gray-600 dark:text-gray-400" style="${ssrRenderStyle(unref(expandedFaq) === index ? null : { display: "none" })}">${ssrInterpolate(faq.answer)}</div></div>`);
+      });
+      _push(`<!--]--></div></div></div></section><section class="py-16 md:py-24 bg-white dark:bg-gray-950"><div class="section-container"><div class="max-w-3xl mx-auto text-center p-12 rounded-3xl bg-gradient-to-br from-primary-50 to-emerald-50 dark:from-gray-900 dark:to-gray-900 border border-primary-200 dark:border-gray-800"><h2 class="font-heading text-3xl font-bold mb-4"> Ready to Start Your Journey? </h2><p class="text-gray-600 dark:text-gray-400 mb-8"> Join thousands of others who are transforming their health with community support. </p><div class="flex flex-col sm:flex-row gap-4 justify-center">`);
+      _push(ssrRenderComponent(_component_Button, {
+        label: "Get Started Free",
+        icon: "pi pi-arrow-right",
+        iconPos: "right",
+        severity: "primary",
+        size: "large"
+      }, null, _parent));
+      _push(ssrRenderComponent(_component_NuxtLink, { to: "/initiatives" }, {
+        default: withCtx((_, _push2, _parent2, _scopeId) => {
+          if (_push2) {
+            _push2(ssrRenderComponent(_component_Button, {
+              label: "Explore Other Initiatives",
+              severity: "secondary",
+              size: "large",
+              outlined: ""
+            }, null, _parent2, _scopeId));
+          } else {
+            return [
+              createVNode(_component_Button, {
+                label: "Explore Other Initiatives",
+                severity: "secondary",
+                size: "large",
+                outlined: ""
+              })
+            ];
+          }
+        }),
+        _: 1
+      }, _parent));
+      _push(`</div></div></div></section></div>`);
+    };
+  }
+});
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/initiatives/health-journey.vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+
+export { _sfc_main as default };
+//# sourceMappingURL=health-journey-YbD_UQsP.mjs.map

@@ -1,0 +1,33 @@
+{
+  "name": "for-the-people-dot-tech",
+  "description": "A non-profit tech hub empowering citizens through accessible digital tools",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "lint": "prettier --check .",
+    "format": "prettier --write .",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@pinia/nuxt": "^0.11.3",
+    "@primeuix/styled": "^0.7.4",
+    "@primeuix/themes": "^2.0.2",
+    "@primevue/nuxt-module": "^4.5.3",
+    "nuxt": "^3.17.0",
+    "pinia": "^3.0.4",
+    "primeicons": "^7.0.0",
+    "vue": "^3.4.19"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "prettier": "^3.1.1",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.1.8"
+  }
+}
